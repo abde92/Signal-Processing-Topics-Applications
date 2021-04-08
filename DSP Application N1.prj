@@ -1,0 +1,102 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="585994027" file="D:\Self learning\MATLAB\Apps\DSP Application N1.prj" location="D:\Self learning\MATLAB\Apps" name="DSP Application N1" target="target.mlapps" target-name="Package App">
+    <param.appname>DSP Application N1</param.appname>
+    <param.authnamewatermark>Abderrahim BELISSAOUI</param.authnamewatermark>
+    <param.email>abd.belissaoui@gmail.com</param.email>
+    <param.company>Self-Employed</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary>This app introduces the below topics: 
+
+- Signal generation 
+- Spectrum analysis 
+- DFT resolution
+- AWGN noise 
+- Windowing</param.summary>
+    <param.description>This app introduces the below topics: 
+
+- Signal generation 
+- Spectrum analysis  using FFT algorithm
+- DFT resolution 
+- AWGN noise 
+- Windowing and spectral leakage</param.description>
+    <param.screenshot>C:\Users\Abderrahim. B\AppData\Local\Temp\tpc2b18af7_3bc0_4eb2_8dab_b28667516626.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>ea953bca-c25e-4383-ac13-2ac5949b34aa</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\Application_4.mlapp</file>
+    </fileset.main>
+    <fileset.depfun />
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="D:\Self learning\MATLAB" name="Apps" optional="false">D:\Self learning\MATLAB\Apps</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>D:\Software\R2019B</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="polyspacebugfinder" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <polyspacebugfinder>
+          <enabled>true</enabled>
+        </polyspacebugfinder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

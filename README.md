@@ -9,3 +9,6 @@ In this repository, Digital Signal Processing (DSP) are implemented in MATLAB to
 - Audio processing project
 - DSP in communications systems Project
 
+Others MATLAB application will be added to this repository in the next weeks
+
+
